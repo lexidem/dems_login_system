@@ -5,10 +5,10 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>User Management System</title>
+    <title>Registration and Login</title>
 </head>
 <body>
-    <h1>Welcome to the User Management System</h1>
+    <h1>Welcome</h1>
     
     <?php if (isset($_SESSION['username'])): ?>
         <p>Hello, <?php echo htmlspecialchars($_SESSION['username']); ?>!</p>
